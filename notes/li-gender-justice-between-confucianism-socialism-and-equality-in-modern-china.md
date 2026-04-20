@@ -1,33 +1,4 @@
 # Yunyan Li, ‘Gender Justice between Confucianism, Socialism and Equality in Modern China: Challenges and Opportunities for National and Local Stakeholders’, in Stephan Köppe, Andrea Parma and Bożena Sojka (eds.), *Social Policy Review 37* (Bristol: Policy Press, 2025), pp. 85–103.
-
-## ♠Point
-
-1）the “most beautiful family,” the “model family,” and the “harmonious family” ≠ domestic(a private matter)=**judged partly by loyalty to the state, a clean legal record, and compliance with family planning policy, before questions of neighborly relations and domestic harmony are even considered**
-
-2）State policy, local institutions, and traditional norms are not separate forces; they overlap and together narrow the life chances of rural women.
-
-3）Gender equality is often understood as “proportional justice（比例正义）”—that is, ensuring that women make up a certain percentage, such as 30 percent of candidates, staff, or leadership roles.
-
-→Many women may enter institutions, but they often do so in lower-level positions, while senior power remains male-dominated.
-
-## ♣Theory
-
-・**Susan Moller Okin**:为什么“家庭”也必须进入正义理论
-
-a theory of justice that ignores the family is incomplete, because private inequality will inevitably shape public inequality.
-
-・**Nancy Fraser**:性别不正义同时发生在资源分配与文化承认层面
-
-Redistribution concerns material and structural inequalities, such as unequal income, unpaid labour, lack of access to property, and welfare systems that rely on women’s care work.
-
-Recognition concerns status hierarchy, misrecognition, and cultural devaluation—for example, when women’s care work is naturalized, when divorced women are stigmatized, or when non-normative families are excluded from policy frameworks.
-
-・**Martha Nussbaum**:形式平等不等于女性真正有能力自由地生活
-
-**capabilities approach**（能力路径）
-
-A woman may formally have the right to work, to leave a marriage, or to participate politically. But if she is constrained by unpaid care burdens, lack of childcare, social shame, economic dependency, or violence, then she may not have the real capability to exercise those rights.
-
 ## ♦My Reflection
 
 作者多个观点都存在倾向性，但作为一个概述性论文可读，以下列出我觉得最荒谬的地方：
@@ -64,3 +35,31 @@ China’s modernization is not a process in which “more modernity automaticall
 
 严格说，并没有哪个国家真的能证明“现代性自然导向平等”。这更多是经典现代化理论的一种叙事假设，而不是历史事实。
 作者虽然试图批评现代化决定论，但仍部分沿用了“现代化—平等”这一经典叙事框架，因而把中国主要表述为偏离或复杂化了这一进程，而不是从根本上反思“现代性是否本就与平等存在内在张力”。
+## ♠Point
+
+1）the “most beautiful family,” the “model family,” and the “harmonious family” ≠ domestic(a private matter)=**judged partly by loyalty to the state, a clean legal record, and compliance with family planning policy, before questions of neighborly relations and domestic harmony are even considered**
+
+2）State policy, local institutions, and traditional norms are not separate forces; they overlap and together narrow the life chances of rural women.
+
+3）Gender equality is often understood as “proportional justice（比例正义）”—that is, ensuring that women make up a certain percentage, such as 30 percent of candidates, staff, or leadership roles.
+
+→Many women may enter institutions, but they often do so in lower-level positions, while senior power remains male-dominated.
+
+## ♣Theory
+
+・**Susan Moller Okin**:为什么“家庭”也必须进入正义理论
+
+a theory of justice that ignores the family is incomplete, because private inequality will inevitably shape public inequality.
+
+・**Nancy Fraser**:性别不正义同时发生在资源分配与文化承认层面
+
+Redistribution concerns material and structural inequalities, such as unequal income, unpaid labour, lack of access to property, and welfare systems that rely on women’s care work.
+
+Recognition concerns status hierarchy, misrecognition, and cultural devaluation—for example, when women’s care work is naturalized, when divorced women are stigmatized, or when non-normative families are excluded from policy frameworks.
+
+・**Martha Nussbaum**:形式平等不等于女性真正有能力自由地生活
+
+**capabilities approach**（能力路径）
+
+A woman may formally have the right to work, to leave a marriage, or to participate politically. But if she is constrained by unpaid care burdens, lack of childcare, social shame, economic dependency, or violence, then she may not have the real capability to exercise those rights.
+
