@@ -4,10 +4,14 @@ A personal archive of reading notes, research reflections, and bibliographic rec
 
 ## About
 Yifei Xu (Effie)  
+
 Graduate School of Human and Environmental Studies, Kyoto University
+
+<img src="./doraemon.png" alt="Doraemon" width="300">
 
 ## Research Interests
 ✿ Gender History
+
 ✿ History of Education
 
 ## Entry
