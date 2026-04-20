@@ -1,5 +1,11 @@
 # Jean C. Oi, *State and Peasant in Contemporary China: The Political Economy of Village Government* (Berkeley: University of California Press, 1989)
 
+## ♦My Reflection
+
+探讨中国农村基层社会的经典文章，为什么违规、隐瞒、表面服从会反复出现？是什么制度压力把地方干部变成了中介/patron + client？文章把**clientelism的生成机制**说明得很清楚。
+
+制定与实施之间有距离，这本身并不特殊；Oi的关键贡献在于说明，在一个以提取 surplus 为核心、规则刚性而监督能力有限的体制里，这种距离会系统性地转化为地方中介的裁量、规避与关系化运作。问题不是“国家能不能完全消灭地方裁量”，而是**“国家如何组织、容忍、压制或依赖地方裁量”**。
+
 ## ♠Point
 
 1）The basic issue of peasant politics remains the division of the harvest. 
@@ -42,13 +48,7 @@ This book’s key claim is that village politics in communist China is fundament
 
 →国家确实深入了社会最基层，但这种渗透并不是完全去人格化、纯官僚化的；个体干部的 personalized authority得到了保留，甚至成为政策实施得以运转的重要条件。
 
-## ♦My Reflection
-
-探讨中国农村基层社会的经典文章，为什么违规、隐瞒、表面服从会反复出现？是什么制度压力把地方干部变成了中介/patron + client？文章把**clientelism的生成机制**说明得很清楚。
-
-制定与实施之间有距离，这本身并不特殊；Oi的关键贡献在于说明，在一个以提取 surplus 为核心、规则刚性而监督能力有限的体制里，这种距离会系统性地转化为地方中介的裁量、规避与关系化运作。问题不是“国家能不能完全消灭地方裁量”，而是**“国家如何组织、容忍、压制或依赖地方裁量”**。
-
-## ♥Q&A
+## ♥Q&A（with ChatGPT）
 
 Q：国家是有意进行“可控的放权”，还是想管但做不到呢？是积极的还是消极的？
 
