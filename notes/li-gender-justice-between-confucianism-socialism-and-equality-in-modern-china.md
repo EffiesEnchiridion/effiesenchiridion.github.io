@@ -1,7 +1,7 @@
 # Yunyan Li, ‘Gender Justice between Confucianism, Socialism and Equality in Modern China: Challenges and Opportunities for National and Local Stakeholders’, in Stephan Köppe, Andrea Parma and Bożena Sojka (eds.), *Social Policy Review 37* (Bristol: Policy Press, 2025), pp. 85–103.
 ## ♦My Reflection
 
-作者多个观点都存在倾向性，但作为一个概述性论文可读，以下列出我觉得最荒谬的地方：
+作者多个观点都存在倾向性，但作为一个概述性论文可读，以下列出我觉得有疑问的地方：
 
 （1）
 
