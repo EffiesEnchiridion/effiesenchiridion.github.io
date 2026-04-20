@@ -3,11 +3,11 @@
 A personal archive of reading notes, research reflections, and bibliographic records.
 
 ## About
-Yifei Xu (Effie)  
+**Yifei Xu**ʚΐɞ**Effie**
 
 Graduate School of Human and Environmental Studies, Kyoto University
 
-![Doraemon](./doraemon)
+<img src="doraemon" alt="Doraemon" width="220">
 
 ## Research Interests
 ✿ Gender History
