@@ -3,7 +3,7 @@
 A personal archive of reading notes, research reflections, and bibliographic records.
 
 ## About
-**Yifei Xu**ʚΐɞ**Effie**
+**Yifei Xu** ʚΐɞ **Effie**
 
 Graduate School of Human and Environmental Studies, Kyoto University
 
