@@ -1,3 +1,6 @@
 # Effie’s Enchiridion
 
-A notebook of reading, research, and reflection.
+A personal archive of reading notes, research reflections, and bibliographic records.
+
+## Entry
+- [Bibliography](./notes/)
