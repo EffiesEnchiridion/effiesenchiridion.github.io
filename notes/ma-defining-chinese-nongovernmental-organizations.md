@@ -4,9 +4,9 @@
 
 1）two dominant frameworks used to interpret Chinese organizations in the 1980s and 1990s: **① civil society ② corporatism**.
 
-・Civil society: emphasizes social self-organization, limits on state power, and voluntary participation.  
+・**Civil society**: emphasizes social self-organization, limits on state power, and voluntary participation.  
 
-・Corporatism: focuses more on how the state structures and manages interest representation through organized bodies.
+・**Corporatism**: focuses more on how the state structures and manages interest representation through organized bodies.
 
 Scholars often reach different conclusions because they study different kinds of organizations: those examining trade unions and business associations tend to see corporatism, while those studying politically oriented groups such as workers’, students’, or women’s organizations tend to see civil society.  
 
@@ -16,11 +16,11 @@ Scholars often reach different conclusions because they study different kinds of
 
 2）If civil society is equated too rigidly with anti-state opposition, it becomes misleading in the Chinese context.
 
-・Late Qing and early Republican periods:  
+・**Late Qing and early Republican periods**:  
 
 China did possess forms of public activity outside the bureaucracy. Merchant, gentry, and intellectual organizations（商人、绅士和知识分子组织） in some regions displayed substantial autonomy in finance and decision-making, and some scholars even described them as having features of a European-style civil society.
 
-・The PRC period into three stages:  
+・**The PRC period into three stages**:  
 
 1. the socialist reform era, 1950–1966.  
 
