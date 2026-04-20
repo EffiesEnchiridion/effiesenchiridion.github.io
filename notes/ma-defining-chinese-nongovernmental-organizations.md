@@ -22,19 +22,19 @@ China did possess forms of public activity outside the bureaucracy. Merchant, ge
 
 ・**The PRC period into three stages**:  
 
-1. the socialist reform era, 1950–1966.  
+1. **the socialist reform era, 1950–1966**.  
 
-The state took control of politics and the economy, and almost all private organizations disappeared. Yet some “nongovernmental” entities remained in special forms.  
+**The state took control of politics and the economy, and almost all private organizations disappeared**. Yet some “nongovernmental” entities remained in special forms.  
 
 These were not formally government bureaus, they became increasingly administrative and official in the 1950s and 1960s and were incorporated into the party-state order.  
 
-2. the Cultural Revolution, 1966–1976.  
+2. **the Cultural Revolution, 1966–1976**.  
 
-3. the post-Mao reform era from the late 1970s onward.  
+3. **the post-Mao reform era from the late 1970s onward**.  
 
-Organizations were increasingly encouraged to become self-governing, self-financing, and self-hiring, and many did gain more room in daily management and project operation.  
+Organizations were **increasingly encouraged to become self-governing, self-financing, and self-hiring**, and many did gain more room in daily management and project operation.  
 
-Yet crucial resources remained under state control: regular state appropriations; employee welfare, staffing status, housing, health care, and pensions that were tied to government-linked systems; overlapping personnel between state and social organizations  
+Yet crucial resources **remained under state control**: regular state appropriations; employee welfare, staffing status, housing, health care, and pensions that were tied to government-linked systems; overlapping personnel between state and social organizations  
 
 →Ma stresses that this Chinese version differed from the Western model: it was not necessarily oriented toward confronting the state, but often toward harmonizing relations between society and government and assisting governance.  
 
@@ -42,17 +42,17 @@ Yet crucial resources remained under state control: regular state appropriations
 
 反面，自主性为什么就是「好」的？  
 
-Ma argued that greater autonomy does not automatically produce civic participation or policy influence.  
+Ma argued that **greater autonomy does not automatically produce civic participation or policy influence**.  
 
 自主性并不会带来公民参与和政策影响，在西方也有很多组织仅停留在hobby groups。而在中国语境中，因为缺乏完善的法律程序和民主机制来保障 NGO 参与政策过程，僵硬地追求“完全脱离国家”就意味着彻底与公共事务的决策无缘。  
 
 China lacks well-developed legal and democratic channels guaranteeing NGO input into policymaking, organizations frequently rely on state connections in order to be heard. In this setting, insisting on total separation from the state may actually weaken an organization’s social effectiveness.  
 
-Ma does not deny that Chinese NGOs remain closely connected to the state. Rather, she argues that even under such conditions, they may still constitute a new and meaningful social force.  
+Ma does not deny that Chinese NGOs remain closely connected to the state. Rather, she argues that **even under such conditions, they may still constitute a new and meaningful social force**.  
 
 →alternative criteria（替代性理解）:  
 
-whether they mobilize citizen participation; whether they promote the articulation of multiple interests; whether they **provide services distinct from those of government agencies**; whether they **cultivate democratic procedures internally**; whether they **create new social spaces outside the state bureaucracy**.
+whether they mobilize citizen participation; whether they **promote the articulation of multiple interests**; whether they **provide services distinct from those of government agencies**; whether they **cultivate democratic procedures internally**; whether they **create new social spaces outside the state bureaucracy**.
 
 
 ## ♦My Reflection
