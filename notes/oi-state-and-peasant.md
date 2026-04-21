@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Jean C. Oi"
+permalink: /notes/oi-state-and-peasant/
+---
 # Jean C. Oi, *State and Peasant in Contemporary China: The Political Economy of Village Government* (Berkeley: University of California Press, 1989)
 
 ## ♦My Reflection
