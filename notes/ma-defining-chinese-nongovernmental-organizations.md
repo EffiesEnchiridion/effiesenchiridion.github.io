@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Qiusha Ma"
+permalink: /notes/ma-defining-chinese-nongovernmental-organizations/
+---
 # Qiusha Ma, ‘Defining Chinese Nongovernmental Organizations’, Voluntas: International Journal of Voluntary and Nonprofit Organizations 13(2) (2002), pp. 113–130.
 
 ## ♦My Reflection
