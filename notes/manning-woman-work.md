@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Kimberley Ens Manning"
+permalink: /notes/manning-woman-work/
+---
 # Kimberley Ens Manning, ‘The Gendered Politics of Woman-Work: Rethinking Radicalism in the Great Leap Forward’, Modern China 32(3) (2006), pp. 349–384.
 
 ## ♠Point
