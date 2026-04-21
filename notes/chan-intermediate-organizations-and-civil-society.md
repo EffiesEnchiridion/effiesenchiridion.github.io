@@ -1,5 +1,6 @@
 # Kin-man Chan, ‘Intermediate Organizations and Civil Society: The Case of Guangzhou’, China Review (1999), pp. 259–284.
-
+---
+---
 ## ♦My Reflection
 
 非常好的文章，把已有的西方理论（corporatism）重新解释，用来理解中国的现实，并提出一种中间状态（既非公民社会，也非纯国家控制），它记录了一个曾经被认真设想过、但后来并未充分实现的方向。
