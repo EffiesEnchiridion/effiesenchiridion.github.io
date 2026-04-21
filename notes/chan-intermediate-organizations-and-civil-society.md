@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Kin-man Chan"
+permalink: /notes/chan-intermediate-organizations-and-civil-society/
 ---
 # Kin-man Chan, ‘Intermediate Organizations and Civil Society: The Case of Guangzhou’, China Review (1999), pp. 259–284.
 
