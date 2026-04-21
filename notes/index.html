@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliography | Effie's Enchiridion</title>
+  <style>
+    :root {
+      --bg: #f3ecd8;
+      --panel: #f8f2e3;
+      --panel-2: #efe6d2;
+      --ink: #2f2a22;
+      --muted: #6a6257;
+      --line: #8a7f6c;
+      --accent: #596b5d;
+      --accent-2: #7a4e47;
+      --glow: rgba(89, 107, 93, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.75;
+    }
+
+    body {
+      min-height: 100vh;
+      padding: 32px 16px 48px;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.14), rgba(255,255,255,0.14)),
+        repeating-linear-gradient(
+          to bottom,
+          rgba(0,0,0,0.015) 0px,
+          rgba(0,0,0,0.015) 1px,
+          transparent 1px,
+          transparent 4px
+        );
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   Arial, "Noto Sans", sans-serif;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .terminal {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.5) inset,
+        0 12px 30px rgba(60, 50, 35, 0.08);
+      overflow: hidden;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 14px;
+      background: var(--panel-2);
+      border-bottom: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--muted);
+      font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      letter-spacing: 0.2px;
+    }
+
+    .lights {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .light {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.15);
+    }
+
+    .light.one { background: #b97b74; }
+    .light.two { background: #b7a36d; }
+    .light.three { background: #7f9a84; }
+
+    .screen {
+      padding: 30px 24px 32px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 5vw, 44px);
+      line-height: 1.18;
+      letter-spacing: 0.2px;
+      color: var(--accent-2);
+      font-weight: 600;
+      font-family: Georgia, "Times New Roman", "Palatino Linotype", serif;
+    }
+
+    .desc {
+      max-width: 760px;
+      color: var(--muted);
+      margin-bottom: 22px;
+      font-size: 17px;
+    }
+
+    .nav {
+      margin-bottom: 24px;
+    }
+
+    .nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--accent);
+      border-bottom: 1px solid transparent;
+      font-size: 15px;
+    }
+
+    .nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .section {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px dashed var(--line);
+    }
+
+    .section-title {
+      color: var(--accent);
+      margin-bottom: 12px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    .entry-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .entry {
+      display: block;
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      background: linear-gradient(to right, rgba(89,107,93,0.06), rgba(89,107,93,0.00));
+      padding: 14px 16px;
+      transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.35) inset;
+    }
+
+    .entry:hover {
+      background: linear-gradient(to right, rgba(89,107,93,0.12), rgba(89,107,93,0.02));
+      transform: translateX(2px);
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.55) inset, 0 0 18px var(--glow);
+    }
+
+    .entry-meta {
+      font-size: 12px;
+      color: var(--accent);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    .entry-title {
+      font-size: 17px;
+      color: var(--ink);
+    }
+
+    .mono-box {
+      background: rgba(255,255,255,0.35);
+      border: 1px solid rgba(138,127,108,0.65);
+      padding: 15px 16px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .screen {
+        padding: 22px 16px 24px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .desc {
+        font-size: 16px;
+      }
+
+      .entry-title {
+        font-size: 16px;
+      }
+
+      .topbar {
+        font-size: 12px;
+        padding: 9px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="terminal">
+      <div class="topbar">
+        <div class="lights">
+          <span class="light one"></span>
+          <span class="light two"></span>
+          <span class="light three"></span>
+        </div>
+        <div>bibliography / effies-enchiridion / ongoing</div>
+      </div>
+
+      <div class="screen">
+        <div class="nav">
+          <a href="../">← Back to Home</a>
+        </div>
+
+        <h1>Bibliography</h1>
+        <div class="desc">
+          A selected catalogue of books, chapters, and articles that shape my reading and research.
+        </div>
+
+        <div class="section">
+          <div class="section-title">Entries</div>
+          <div class="entry-list">
+            <a class="entry" href="./manning-party-family.md">
+              <div class="entry-meta">Book</div>
+              <div class="entry-title">Kimberley Ens Manning, <i>The Party Family: Revolutionary Attachments and the Gendered Origins of State Power in China</i></div>
+            </a>
+
+            <a class="entry" href="./oi-state-and-peasant.md">
+              <div class="entry-meta">Book</div>
+              <div class="entry-title">Jean C. Oi, <i>State and Peasant in Contemporary China: The Political Economy of Village Government</i></div>
+            </a>
+
+            <a class="entry" href="./li-gender-justice-between-confucianism-socialism-and-equality-in-modern-china.md">
+              <div class="entry-meta">Chapter</div>
+              <div class="entry-title">Yunyan Li, “Gender Justice between Confucianism, Socialism and Equality in Modern China: Challenges and Opportunities for National and Local Stakeholders”</div>
+            </a>
+
+            <a class="entry" href="./manning-woman-work.md">
+              <div class="entry-meta">Article</div>
+              <div class="entry-title">Kimberley Ens Manning, “The Gendered Politics of Woman-Work: Rethinking Radicalism in the Great Leap Forward”</div>
+            </a>
+
+            <a class="entry" href="./wang-state-feminism.md">
+              <div class="entry-meta">Article</div>
+              <div class="entry-title">Zheng Wang, “State Feminism”? Gender and Socialist State Formation in Maoist China</div>
+            </a>
+
+            <a class="entry" href="./ma-defining-chinese-nongovernmental-organizations.md">
+              <div class="entry-meta">Article</div>
+              <div class="entry-title">Qiusha Ma, “Defining Chinese Nongovernmental Organizations”</div>
+            </a>
+
+            <a class="entry" href="./chan-intermediate-organizations-and-civil-society.md">
+              <div class="entry-meta">Article</div>
+              <div class="entry-title">Kin-man Chan, “Intermediate Organizations and Civil Society: The Case of Guangzhou”</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">Note</div>
+          <div class="mono-box">
+            This bibliography is still in progress and will continue to grow with my reading and research.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Built with GitHub Pages
+    </div>
+  </div>
+</body>
+</html>
