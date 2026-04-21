@@ -3,29 +3,316 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | Effie's Enchiridion</title>
   <style>
-    body {
-      background: #faf8f2;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      margin: 0;
-      padding: 40px;
+    :root {
+      --bg: #f3ecd8;
+      --panel: #f8f2e3;
+      --panel-2: #efe6d2;
+      --ink: #2f2a22;
+      --muted: #6a6257;
+      --line: #8a7f6c;
+      --accent: #596b5d;
+      --accent-2: #7a4e47;
+      --glow: rgba(89, 107, 93, 0.10);
     }
 
-    .test-box {
-      max-width: 820px;
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    body {
+      min-height: 100vh;
+      padding: 32px 16px 48px;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.14), rgba(255,255,255,0.14)),
+        repeating-linear-gradient(
+          to bottom,
+          rgba(0,0,0,0.015) 0px,
+          rgba(0,0,0,0.015) 1px,
+          transparent 1px,
+          transparent 4px
+        );
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   Arial, "Noto Sans", sans-serif;
+      line-height: 1.8;
+    }
+
+    .wrap {
+      max-width: 920px;
       margin: 0 auto;
-      border: 6px solid red;
-      padding: 24px;
-      background: white;
+    }
+
+    .terminal {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.5) inset,
+        0 12px 30px rgba(60, 50, 35, 0.08);
+      overflow: hidden;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 14px;
+      background: var(--panel-2);
+      border-bottom: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--muted);
+      font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      letter-spacing: 0.2px;
+    }
+
+    .lights {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .light {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.15);
+    }
+
+    .light.one { background: #b97b74; }
+    .light.two { background: #b7a36d; }
+    .light.three { background: #7f9a84; }
+
+    .screen {
+      padding: 28px 24px 34px;
+    }
+
+    .nav {
+      margin-bottom: 18px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 14px;
+      border-bottom: 1px solid transparent;
+    }
+
+    .nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .page-title {
+      margin: 0 0 18px;
+      font-size: clamp(30px, 4.5vw, 42px);
+      line-height: 1.2;
+      color: var(--accent-2);
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      font-family: Georgia, "Times New Roman", "Palatino Linotype", serif;
+    }
+
+    .note-body {
+      font-family: Georgia, "Times New Roman", "Palatino Linotype", serif;
+      font-size: 18px;
+      color: var(--ink);
+    }
+
+    .note-body h1,
+    .note-body h2,
+    .note-body h3,
+    .note-body h4 {
+      color: var(--accent);
+      line-height: 1.35;
+      margin-top: 1.8em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   Arial, "Noto Sans", sans-serif;
+    }
+
+    .note-body h1 {
+      font-size: 1.6em;
+    }
+
+    .note-body h2 {
+      font-size: 1.25em;
+      padding-top: 0.2em;
+      border-top: 1px dashed var(--line);
+    }
+
+    .note-body h3 {
+      font-size: 1.08em;
+    }
+
+    .note-body p,
+    .note-body ul,
+    .note-body ol,
+    .note-body blockquote,
+    .note-body pre,
+    .note-body table {
+      margin-top: 0;
+      margin-bottom: 1.1em;
+    }
+
+    .note-body ul,
+    .note-body ol {
+      padding-left: 1.5em;
+    }
+
+    .note-body li {
+      margin-bottom: 0.35em;
+    }
+
+    .note-body a {
+      color: var(--accent-2);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(122, 78, 71, 0.35);
+    }
+
+    .note-body a:hover {
+      border-bottom-color: var(--accent-2);
+    }
+
+    .note-body strong {
+      color: var(--accent-2);
+    }
+
+    .note-body blockquote {
+      margin-left: 0;
+      padding: 12px 16px;
+      border-left: 3px solid var(--accent);
+      background: rgba(255,255,255,0.35);
+      color: var(--muted);
+    }
+
+    .note-body code {
+      font-size: 0.92em;
+      padding: 0.12em 0.35em;
+      background: rgba(255,255,255,0.55);
+      border: 1px solid rgba(138,127,108,0.5);
+      border-radius: 3px;
+      font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    .note-body pre {
+      padding: 14px 16px;
+      overflow-x: auto;
+      background: rgba(255,255,255,0.42);
+      border: 1px solid rgba(138,127,108,0.65);
+    }
+
+    .note-body pre code {
+      padding: 0;
+      background: transparent;
+      border: 0;
+    }
+
+    .note-body hr {
+      border: 0;
+      border-top: 1px dashed var(--line);
+      margin: 2em 0;
+    }
+
+    .note-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.2em auto;
+      border: 1px solid rgba(138,127,108,0.65);
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.45) inset;
+    }
+
+    .note-body table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95em;
+    }
+
+    .note-body th,
+    .note-body td {
+      border: 1px solid rgba(138,127,108,0.65);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .note-body th {
+      background: rgba(255,255,255,0.4);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   Arial, "Noto Sans", sans-serif;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 20px 10px 32px;
+      }
+
+      .screen {
+        padding: 22px 16px 26px;
+      }
+
+      .topbar {
+        font-size: 12px;
+        padding: 9px 12px;
+      }
+
+      .page-title {
+        font-size: 28px;
+      }
+
+      .note-body {
+        font-size: 17px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="test-box">
-    <p><strong>LAYOUT TEST</strong></p>
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+  <div class="wrap">
+    <div class="terminal">
+      <div class="topbar">
+        <div class="lights">
+          <span class="light one"></span>
+          <span class="light two"></span>
+          <span class="light three"></span>
+        </div>
+        <div>reading note / effies-enchiridion / archive</div>
+      </div>
+
+      <div class="screen">
+        <div class="nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/notes/' | relative_url }}">Bibliography</a>
+        </div>
+
+        <h1 class="page-title">{{ page.title }}</h1>
+
+        <div class="note-body">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Effie's Enchiridion
+    </div>
   </div>
 </body>
 </html>
